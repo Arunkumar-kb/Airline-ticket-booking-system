@@ -1,0 +1,166 @@
+body {
+  background-color: #fff;
+}
+
+.wholerow {
+  margin: auto;
+
+}
+.mb-30{
+margin-bottom: 30px;
+margin-right: 35%;
+margin-left:35%;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid #d2d2dc;
+  border-radius: 15px;
+  text-align: center;
+  
+}
+
+.card .card-body {
+  padding: 1.25rem 1.75rem;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+.card-body .row {
+  display: flex;
+  justify-content: center;
+  padding: 5px 5px;
+  gap: 10px;
+  
+}
+.card .card-title {
+  color: #000000;
+  margin-bottom: 0.625rem;
+  text-transform: capitalize;
+  font-size: 1.875rem;
+  font-weight: 500
+}
+.type{
+  margin-bottom: 25px;
+}
+.type label{
+  font-size: 20px;
+}
+.type .select{
+  border: none;
+  text-decoration: none;
+  padding:5px 10px;
+  font-size: 16px;
+  /*-moz-appearance: none;
+  appearance: none;*/
+}
+.card .card-description {
+  margin-bottom: .875rem;
+  font-weight: 400;
+  color: #76838f;
+}
+.card-description ul{
+  padding: unset;
+}
+.card-description ul li{
+  margin: auto;
+  display: inline-flex;
+  text-decoration:none;
+}
+.card-description .bseat{
+  background-color: rgb(168, 162, 162);
+  height: 10px;
+  width: 10px;
+  padding: 7px 7px;
+  border: 2px solid rgb(168, 162, 162);
+  display: inline-block;
+  color: #8f37aa;
+  border-radius: 3px;
+  margin-left: 20px;
+}
+.card-description .aseat{
+  background-color: #fff;
+  height: 10px;
+  width: 10px;
+  padding: 7px 7px;
+  border: 2px solid #8f37aa;
+  display: inline-block;
+  color: #8f37aa;
+  border-radius: 3px;
+  margin-left: 20px;
+}
+.card-description .sseat{
+  background-color: #8f37aa;
+  height: 10px;
+  width: 10px;
+  padding: 7px 7px;
+  border: 2px solid #8f37aa;
+  display: inline-block;
+  color: #8f37aa;
+  border-radius: 3px;
+  margin-left: 20px;
+}
+h4{
+  margin: auto;
+  padding:5px;
+  font-weight: 500;
+  color:#000000;
+}
+/*p {
+  font-size: 0.875rem;
+  margin-bottom: .5rem;
+  line-height: 1.5rem
+}*/
+.classes{
+  display: flex;
+  width: 40%;
+  margin:auto;
+}
+.exit{
+  padding:5px;
+  background-color: crimson;
+  color:white;
+  border-radius: 3px;
+}
+label.check {
+ cursor: pointer;
+}
+label.check input {
+position: absolute;
+top: 0;
+left: 0;
+visibility: hidden;
+pointer-events: none;
+}
+label.check span {
+  height: 20px;
+  width: 20px;
+  padding: 7px 14px;
+  border: 2px solid #8f37aa;
+  display: inline-block;
+  color: #8f37aa;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+label.check input:checked + span {
+border-color: #8f37aa;
+  background-color: #8f37aa;
+  color: #fff;
+}
+label.check input:disabled + span {
+  border-color: rgb(168, 162, 162);
+    background-color: rgb(168, 162, 162);
+    color: rgb(168, 162, 162);
+    cursor:default !important;
+  }
+  label.check:nth-of-type(3) {
+    margin-right: 24px;
+  }
+
+  
+ 

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <div class="container">
+        <form method="post" action="payment.php">
+       <div class="row">
+            <div class="col">
+                <h3 class="title">Booking User Details</h3>
+                <div class="inputbox">
+                    <span>Full Name :</span>
+                    <input type="text" name="name" placeholder="John deo">
+                </div>
+                <div class="inputbox">
+                    <span>Email :</span>
+                    <input type="email" name="email" placeholder="example@gamil.com">
+                </div>
+                <div class="inputbox">
+                    <span>Address :</span>
+                    <input type="text" name="add" placeholder="room - street - locality">
+                </div>
+                <div class="inputbox">
+                    <span>state :</span>
+                    <input type="text" name="state" placeholder="Tamil Nadu">
+                </div>
+                <div class="flex">
+                <div class="inputbox">
+                    <span>zip code :</span>
+                    <input type="zip" name="zip" placeholder="123 456">
+                </div>
+                <div class="inputbox">
+                    <span>amount :</span>
+                    <input type="text" name="amount" placeholder="">
+                </div>
+                </div>
+
+            </div>
+
+            <div class="col">
+                <h3 class="title">Payment</h3>
+                <div class="inputbox">
+                    <span>card accepted :</span>
+                    <img src="cards.jpeg" alt="cards">
+                </div>
+                <div class="inputbox">
+                    <span>name on card :</span>
+                    <input type="text" name="cname" placeholder="mr. john doe">
+                </div>
+                <div class="inputbox">
+                    <span>credit card number :</span>
+                    <input type="number" name="cnum" placeholder="1111-2222-3333-4444">
+                </div>
+                <div class="inputbox">
+                    <span>exp month :</span>
+                    <input type="text" name="expm" placeholder="january">
+                </div>
+                <div class="flex">
+                <div class="inputbox">
+                    <span>exp year :</span>
+                    <input type="number" name="expy" min="2022" max="2030" placeholder="2022">
+                </div>
+                <div class="inputbox">
+                    <span>cvv :</span>
+                    <input type="number" name="cvv" placeholder="1234">
+                </div>
+                </div>
+
+            </div>
+        </div>
+        <input type="submit" value="proceed to checkout" class="submit">
+        </form>
+    </div>
+</body>
+</html>
